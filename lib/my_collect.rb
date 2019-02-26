@@ -4,7 +4,7 @@ def my_collect(array)
   first_names = []
   
   while counter < array.length
-    yield caps_lock[counter] = array[counter].upcase
+    yield caps_lock[counter] = array[counter].upcase!
     yield first_names[counter] = array[counter].split.first
     counter = counter + 1
   end
