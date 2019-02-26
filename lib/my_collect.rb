@@ -10,5 +10,5 @@ def my_collect(array)
   end
   
   caps_lock
-  first_names
+#  first_names
 end
